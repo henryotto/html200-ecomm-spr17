@@ -1,6 +1,7 @@
 body {
   font-size: 100%;
   font-family: Helvetica, Arial, sans-serif;
+  background-color: gold;
 }
 
 p {
@@ -11,7 +12,8 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-width: 100%;
+  /*max-height: 20rem;*/
 }
 
 /***************** NAV *****************/
