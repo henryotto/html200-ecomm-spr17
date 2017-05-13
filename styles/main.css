@@ -1,7 +1,8 @@
 body {
   font-size: 100%;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: gold;
+  background-image: url(../images/flr.jpg);
+  background-color: #eee;
 }
 
 p {
@@ -19,7 +20,8 @@ img {
 /***************** NAV *****************/
 
 nav ul {
-  background-color: #3D7FCF;
+  background-color: #123;
+  /*background-color: #3D7FCF;*/
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -58,8 +60,8 @@ header img {
 
 input[type="submit"] {
   padding: .25rem;
-  background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
+  background-color: #123;
+  border: 1px solid #123;
   border-radius: 5px;
   font-size: .75rem;
   color: white;
@@ -124,7 +126,7 @@ h3 {
 }
 
 footer {
-  background-color: #3D7FCF;
+  background-color: #123;
   padding: 1em;
   text-align: center;
   color: #FFFFFF;
