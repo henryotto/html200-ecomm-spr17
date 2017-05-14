@@ -17,11 +17,26 @@ img {
   /*max-height: 20rem;*/
 }
 
+@media (max-width: 550px) {
+  h1 { font-size: 1.5rem; }
+}
+
 /***************** NAV *****************/
+
+@media (max-width: 680px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: .05em solid #129;
+  }
+}
 
 nav ul {
   background-color: #123;
-  /*background-color: #3D7FCF;*/
   justify-content: space-between;
   flex-wrap: wrap;
 }
