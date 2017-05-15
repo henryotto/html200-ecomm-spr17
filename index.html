@@ -15,8 +15,8 @@
 <body>
   <header>
     <div class="top-container">
-    <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
     <h1>
+      <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
       <span class="logo-w">W</span>inter
       <span class="logo-w">W</span>ear
       <span class="logo-w">W</span>arehouse
@@ -33,7 +33,6 @@
       </ul>
     </nav>
   </header>
-
   <main>
     <aside>
       <form name="customeremail" onsubmit="handle();">
@@ -132,8 +131,8 @@
           <p>Luxurious silk scarf with subtle paisley pattern. 100% silk.</p><hr>
           <p class="price">$26.99</p><br>
           <p class="cart-modify">
-            <button type="button" onclick="addToCart">+</button>
-            <button type="button" onclick="removeFromCart">-</button>
+            <button type="button" onclick="addToCart" id="item01">+</button>
+            <button type="button" onclick="removeFromCart" id="item01">-</button>
           </p>
         </div>
       </div>
@@ -141,6 +140,7 @@
   </main>
   <footer>E-commerce-site, 2017 | Lesson 04 Assignment </footer>
   <script src="js/form-handler.js"></script>
+  <script src="js/cart.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script src="https://use.fontawesome.com/???.js"></script>
 </body>
