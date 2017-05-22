@@ -143,6 +143,10 @@ button {
   width: 25%;
 }
 
+.item-size {
+  float:left;
+}
+
 section {
   padding: 0 .75rem;
 }
